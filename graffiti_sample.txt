@@ -1,0 +1,16 @@
+// include iostream for printing
+#include <iostream>
+// Define a simple structure
+struct Date {
+  int day, month, year;
+};
+
+// Define a main function to instantiate and test 
+int main(){
+    Date date;
+    date.day = 1;
+    date.month = 10;
+    date.year = 2003;
+    // Print the data in the structure
+    std::cout << date.day << "/" << date.month << "/" << date.year << "\n";
+}
